@@ -1,0 +1,49 @@
+body{
+    font-family: monospace;
+
+    border: 2px solid black;
+}
+
+#encabezado{
+    background-color: chartreuse;
+    color: black;
+    height: 100%;
+}    
+
+.enlaceNav{
+ display: inline-block;
+ color: black;
+ background-color: greenyellow;
+ padding: 10px 30px;
+ font-size: medium;
+ text-decoration: none;
+}
+
+/* Cambiar color cauando el cursor seleccione */
+.enlaceNav:hover{
+    background: black;
+    color: greenyellow;
+
+}
+
+/* contenedor padre NAV */
+nav{
+    display: flex;
+    justify-content: center;
+    background: rgb(52, 50, 50);
+    padding: 20px;
+}
+
+#seccion{
+    display: flex;
+    justify-content: center;
+}
+
+#pie{
+    background-color:rgb(0, 0, 0);
+    color: chartreuse;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
