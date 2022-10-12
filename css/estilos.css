@@ -2,7 +2,7 @@ body{
     
     border: 3px solid greenyellow;
     background-color: black;
-    maring : 0 auto;
+    
 }
 
 #contenedor{
@@ -17,7 +17,7 @@ h4{
 
 
 #encabezado{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     height: 50px;
@@ -31,6 +31,16 @@ p{
 #titulo{
     margin: 10px 20px 0px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.op{
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ display: inline-block;
+ color: black;
+ background-color: rgb(181, 186, 174);
+ padding: 8px 20px;
+ text-decoration: none;
+ justify-content: space-around;
 }
 
 .enlaceNav{
@@ -62,12 +72,13 @@ nav{
 #seccion{
     background-color: black;
     color: antiquewhite;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    border: 2px solid white;
 }
 
 #columnas{
-    justify-content: column;
+    justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -77,6 +88,7 @@ nav{
     color: blanchedalmond;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 #promo{
     display: inline-block;
@@ -84,14 +96,14 @@ nav{
 }
 
 .imgs{
-    display:flex;
+    display: flex;
 }
 
 
 
 #grande img{
-    height: 600px;
-    width: 600px;
+    height: 400px;
+    width: 400px;
 }
 
 picture img{
@@ -104,9 +116,6 @@ picture img{
 
 
 #pie{
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
     width: 100%;
     background-color:rgb(0, 0, 0);
     color: chartreuse;
@@ -117,4 +126,17 @@ picture img{
     border: 2px solid white;
     font-size: larger;
     font-family: monospace;
+
 }
+.fijar{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+
+/* PRODUCTOS */
+
+#productos{
+    justify-content: space-around;
+}
+
