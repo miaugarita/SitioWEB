@@ -97,6 +97,7 @@ nav{
 
 .imgs{
     display: flex;
+
 }
 
 
@@ -138,5 +139,77 @@ picture img{
 
 #productos{
     justify-content: space-around;
+
 }
 
+/* CONTACTOS ________________________________________________- */
+input, select {
+    height: 30px;
+    padding: 3px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.6rem;
+    font-family: var(--fuente);
+}
+
+label {
+    font-size: 18px;
+    font-family: var(--fuente);
+    margin: 10px 0;
+}
+
+textarea {
+    font-family: var(--fuente);
+    font-size: 16px;
+    padding: 5px;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    resize: none;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.seccion {
+    background-color: var(--primario);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid var(--oscuro);
+}
+
+.labels {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 10px;
+    margin: 10 px 0;
+}
+
+.boton {
+    height: 4rem;
+    width: 25%;
+    font-family: var(--fuente);
+    font-size: 2rem;
+    border: 1px solid var(--oscuro);
+    border-radius: 0.5rem;
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+
+.boton:hover {
+    cursor: pointer;
+}
+
+.boton:focus {
+    background-color: #18dae0;
+    color: var(--oscuro);
+}

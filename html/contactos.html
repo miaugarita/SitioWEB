@@ -29,13 +29,87 @@
         </nav>
 
         <section id="seccion">
+            <form action="2020030319@upsin.edu.mx" method="post">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="name" placeholder="Introduzca un nombre" required />
+                <label for="correo">Correo</label>
+                <input type="email" id="correo" name="correo" placeholder="Introduzca un correo" required
+                    pattern="[a-z0-9,_+-%]+@+[a-z0-9]+.+[a-z]" />
+                <label for="fecha">Fecha</label>
+                <input type="date" id="fecha" name="fecha" min="2022-01-01" max="2022-12-31" required />
+                <label for="lugar">Lugar de nacimiento</label>
+                <input list="estados" id="lugar" name="lugar" placeholder="Introduzca un estado" required />
+                <datalist id="estados" name="estados">
+                    <option value="Tijuana"></option>
+                    <option value="Sonora"></option>
+                    <option value="Nayarit"></option>
+                    <option value="Jalisco"></option>
+                    <option value="Durango"></option>
+                </datalist>
+                <label for="poblacion">Poblacion</label>
+                <input type="text" id="poblacion" name="poblacion" placeholder="Introduzca la poblacion" required />
+
+                <hr />
+
+                <div class="seccion">
+                    <h3 class="encabezado">Selecciona un sexo</h3>
+                    <div class="labels">
+                        <label for="masculino">Hombre</label>
+                        <input type="radio" name="sexo" id="masculino" />
+                        <label for="femenino">Mujer</label>
+                        <input type="radio" name="sexo" id="femenino" /> />
+                    </div>
+                </div>
+
+                <hr />
+
+                <div class="seccion">
+                    <h3 class="encabezado">Estudios</h3>
+                    <div class="labels">
+                        <label for="primaria">Primaria</label>
+                        <input type="checkbox" name="primaria" id="primaria" />
+                        <label for="secundaria">Secundaria</label>
+                        <input type="checkbox" name="secundaria" id="secundaria" />
+                        <label for="preparatoria">Preparatoria</label>
+                        <input type="checkbox" name="preparatoria" id="preparatoria" />
+                        <label for="universidad">Universidad</label>
+                        <input type="checkbox" name="universidad" id="universidad" />
+                    </div>
+                </div>
+
+                <hr />
+
+                <h3>Nivel de ingresos</h3>
+                <input type="range" name="monto" id="monto" max="10000" min="0" value="5000" />
+
+                <hr />
+
+                <h3>Estado civil</h3>
+                <select name="edocivil" id="edocivil">
+                    <option value="1">Soltero</option>
+                    <option value="2">Casado</option>
+                    <option value="3">viudo</option>
+                    <option value="4">Divorciado</option>
+                </select>
+
+                <hr />
+
+                <h3>Comentarios</h3>
+                <textarea name="comentario" id="comentario" placeholder="Escriba sus opiniones"></textarea>
+
+                <div class="botones">
+                    <input type="submit" value="Enviar" class="boton" />
+                    <input type="reset" value="Limpiar" class="boton" />
+                </div>
+            </form>
+        </section>
 
 
 
 
         </section>
 
-        <footer id="pie"class="fijar">
+        <footer id="pie" class="fijar">
             <h6>Margarita Trejo Tirado OCTUBRE 2022</h6>
         </footer>
     </div>
