@@ -225,6 +225,26 @@ hr {
 }
 
 /* NOSOTROS */
+#nosotros{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color: greenyellow;
+color: rgb(0, 0, 0);
+height: 250px;
+padding: 0px 300px;
+
+
+
+
+}
+
+.LOGO{
+    display: flex;
+    justify-content: center;
+}
+#logo{
+    height: 300px;
+    width: 300px;
+}
 
 
 
