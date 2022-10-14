@@ -143,6 +143,7 @@ picture img{
 }
 
 /* CONTACTOS ________________________________________________- */
+
 input, select {
     height: 30px;
     padding: 3px;
@@ -170,6 +171,14 @@ textarea {
 
 hr {
     margin: 20px 0;
+}
+
+#seccionCont{
+    background-color: black;
+    color: antiquewhite;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 200px;
+    border: 2px solid white;
 }
 
 .seccion {
@@ -214,3 +223,11 @@ hr {
     background-color: #18dae0;
     color: var(--oscuro);
 }
+
+/* NOSOTROS */
+
+
+
+
+
+
