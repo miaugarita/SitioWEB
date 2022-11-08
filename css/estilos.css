@@ -169,6 +169,8 @@ picture img{
     justify-content: space-around;
     border: solid greenyellow; ;
     width: 250px;
+    padding-bottom: 10px;
+    
 }
 
 .precio{
