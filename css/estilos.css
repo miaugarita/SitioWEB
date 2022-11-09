@@ -2,12 +2,14 @@ body{
     
     border: 3px solid greenyellow;
     background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 
 #contenedor{
     display:flex;
     flex-direction: row;
+
 }
 
 h4{
@@ -17,7 +19,7 @@ h4{
 
 
 #encabezado{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     height: 50px;
@@ -30,24 +32,24 @@ p{
 
 #titulo{
     margin: 10px 20px 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .enlaceNav{
-font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  display: inline-block;
  color: black;
  background-color: greenyellow;
  padding: 10px 30px;
  text-decoration: none;
- justify-content: space-around;
+
 }
 
 /* Cambiar color cauando el cursor seleccione */
 .enlaceNav:hover{
     background: black;
     color: greenyellow;
-
+    
 }
 
 /* contenedor padre NAV */
@@ -62,14 +64,15 @@ nav{
 #seccion{
     background-color: black;
     color: antiquewhite;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 900px;
     padding: 20px;
     border: 2px solid white;
 }
 
 #columnas{
     justify-content: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -79,23 +82,27 @@ nav{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
+
+#grande img{
+    height: 300px;
+    width: 300px;
+}
+
 #promo{
     display: inline-block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .imgs{
+
     display: flex;
 
 }
 
 
 
-#grande img{
-    height: 400px;
-    width: 400px;
-}
 
 picture img{
     height: 190px;
@@ -130,7 +137,9 @@ picture img{
 }
 
 /* PRODUCTOS___________________________________________________________ */
-#fila1{
+
+/*#fila1{
+    margin-top: 10px;
     display: flex;
     color: blanchedalmond;
     flex-direction: row;
@@ -145,10 +154,10 @@ picture img{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-}
+}*/
 
 .op{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      display: inline-block;
      color: black;
      background-color: rgb(181, 186, 174);
@@ -163,14 +172,30 @@ picture img{
     color: black;
 }
 
-
+#seccionProductos{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    justify-content: space-between;
+    border: sollid 2px white;
+}
 
 .productos{
-    justify-content: space-around;
-    border: solid greenyellow; ;
-    width: 250px;
+    flex: none;
+    border: solid greenyellow ;
+    width: 240px;
     padding-bottom: 10px;
-    
+    margin-bottom: 2%;
+    align-items: center;
+    justify-content: center
+    display-flex;
+    color: white;
+}
+
+.productos:hover{
+    background-color: rgb(33, 34, 33);
+    color: greenyellow;
 }
 
 .precio{
@@ -183,23 +208,35 @@ picture img{
 
 /* CONTACTOS ________________________________________________- */
 
-input, select {
-    height: 30px;
-    padding: 3px;
-    border-radius: 5px;
-    width: 100%;
-    font-size: 1.6rem;
-    font-family: var(--fuente);
+#seccionCont{
+    background-color: black;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content: center;
+    width: 900px;
+    border: solid white;
+    margin: auto;
 }
-
+input, select {
+    height: 20px;
+    padding: 3px;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+select{
+    height: 30px;
+    font-size: 20px;
+}
 label {
-    font-size: 18px;
-    font-family: var(--fuente);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 10px 0;
 }
 
 textarea {
-    font-family: var(--fuente);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
     padding: 5px;
     width: 100%;
@@ -212,20 +249,14 @@ hr {
     margin: 20px 0;
 }
 
-#seccionCont{
-    background-color: black;
-    color: antiquewhite;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding: 0px 200px;
-    border: 2px solid white;
-}
 
-.seccion {
+.seccionCont {
     background-color: var(--primario);
     padding: 10px;
     border-radius: 5px;
     border: 2px solid var(--oscuro);
-    
+    width: 900px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .labels {
@@ -233,6 +264,7 @@ hr {
     flex-direction: row;
     justify-content: start;
     align-items: center;
+    
 }
 
 .botones {
@@ -246,7 +278,7 @@ hr {
 .boton {
     height: 4rem;
     width: 25%;
-    font-family: var(--fuente);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2rem;
     border: 1px solid var(--oscuro);
     border-radius: 0.5rem;
@@ -267,11 +299,12 @@ hr {
 
 /* NOSOTROS_________________________________________________________ */
 #nosotros{
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 background-color: greenyellow;
 color: rgb(0, 0, 0);
 height: 250px;
 padding: 0px 300px;
+width: 900px;
 }
 
 .LOGO{
