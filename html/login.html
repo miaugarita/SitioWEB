@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <script src="/js/usuarios.js" type="module"></script>
     <center>
     <header id="Enzabechado" style="color: greenyellow; font-size: 30px;">--- Inicio de Sesión ---</header>
     <div class="contenedorVerde">
@@ -20,14 +21,20 @@
         
         <div id="cuadroVerde">
             <label class="usu" for="">Usuario</label>
-            <input class="usu" type="text">
+            <input type="text" placeholder="Ingresa Usuario" id="usuario" required>
             <br>
             <label class="usu" for="">Clave</label>
-            <input class="usu" type="text">
+            <input type="password" placeholder="Ingresa una contraseña" id="clave" required>
+            <br>
+            
         </div>
-
+<p>User de acceso : mamoi Clave : 1111</p>
         <button id="ingresar"><h4>Ingresar</h4></button>
+        <br><br>
+        <a href="/index.html" style="color: greenyellow;">Regresar a Wicho`s</a>
     </div>
+
+    
     </center>
 </body>
 

@@ -181,20 +181,25 @@ picture img{
     display: flex;
     flex-wrap: wrap;
     width: 900px;
-    justify-content: space-between;
+    justify-content: space-around;
     border: sollid 2px white;
+}
+.productos img{
+    width: 180px;
+    
 }
 
 .productos{
-    flex: none;
+
     border: solid greenyellow ;
-    width: 240px;
+    width: 2px;
     padding-bottom: 10px;
     margin-bottom: 2%;
     align-items: center;
-    justify-content: center
+    justify-content: space-around;
+    flex-wrap: wrap
     display-flex;
-    color: white;
+    flex-direction: row;
 }
 
 .productos:hover{
@@ -217,7 +222,7 @@ picture img{
     color: antiquewhite;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-content: center;
-    width: 900px;
+    width: 700px;
     border: solid white;
     margin: auto;
     display: flex;
@@ -344,7 +349,7 @@ color: rgb(22, 52, 7);
     width: 300px;
 }
 
-/*Login*/
+/*Login ______________________________________________________________*/
 #Enzabechado{
     padding-top: 100px;
 }
@@ -365,6 +370,35 @@ color: rgb(22, 52, 7);
     padding-bottom: 115px;
     
 }
+#seccionAdm{
+    
+        background-color: black;
+        color: antiquewhite;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        align-content: center;
+        width: 900px;
+        height: 600px;
+        border: solid white;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        
+}
+
+#contenedorE{
+    
+    align-items: center;
+    background-color: black;
+    color: rgb(122, 190, 39);
+}
+
+#back{
+    height: 30px;
+    background-color: greenyellow ;
+    color: black;
+    text-decoration: none;
+}
+
 
 
 

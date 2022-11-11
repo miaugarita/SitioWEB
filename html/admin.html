@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administración</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    l
+</head>
+
+<body>
+    <div id="seccionAdm">
+        <div>
+        <h1>Control de Productos</h1>
+        <label for="">ID Producto :</label>
+        <input type="text" id="identificador" name="identificador">
+        <br>
+        <label for="">Nombre :</label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+        <label for="">Precio: </label>
+        <input type="text" name="precio" id="precio" required>
+        <br>
+        <label for="">Descripcion : </label>
+        <input type="text" name="descripcion" id="descripcion">
+        <br>
+        <select name="estado" id="estado">
+            <option value="-1" disabled selected>Seleccione un estado</option>
+            <option value="0">Disponible  </option>
+            <option value="1">Agotado</option>
+        </select>
+        <div class="form">
+            <label style="color:white ;" for="">Nombre imagen</label>
+            <input type="text" id="imgNombre" name="imgNombre" readonly="true" required>
+            <br>
+            <label style="color:white ;" for="">URL</label>
+            <input type="text" id="url" name="url" readonly="true" required>
+            <br>
+            <label style="color:white ;" for="">Selecciona la Imagen .jpg, .jpeg, .png .webp</label>
+            <input style="color:white ;" type="file" id="img" name="archivo" accept=".jpg,.jpeg, .png, .webp">
+        </div>
+
+        <center>
+            <h4>Imagen</h4>
+            <img style="width:100px ;" id="imagen" src="/img/LOGO.png" alt="producto">
+        </center>
+
+        <hr>
+        <center>
+        <button class="op" id="btnInsertar">Guardar</button>
+        <button class="op" id="btnBuscar">Buscar</button>
+        <button class="op" id="btnActualizar">Actualizar</button>
+        <button class="op" id="btnDeshabilitar">Deshabilitar</button>
+        <button class="op" id="btnLimpiar" name="btnLimpiar">Limpiar informacion</button>
+        </center>
+        <br>
+        <hr>
+            
+        <section id="lista" name="lista">
+        </section></div>
+
+    </div>
+    <footer id="pie" class="fijar">
+        <h5>Margarita Trejo Tirado OCTUBRE 2022</h5>
+    </footer>
+    <script src="/js/proy.js" type="module"></script>
+
+
+</body>
+
+</html>
