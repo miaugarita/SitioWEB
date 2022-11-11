@@ -344,6 +344,28 @@ color: rgb(22, 52, 7);
     width: 300px;
 }
 
+/*Login*/
+#Enzabechado{
+    padding-top: 100px;
+}
+#cuadroVerde{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 700px;
+    background-color: greenyellow;
+    display: flex;
+    margin: auto;
+    
+
+}
+#ingresar{
+    margin-top: 20px;
+}
+.contenedorVerde{
+    padding-bottom: 115px;
+    
+}
+
 
 
 
